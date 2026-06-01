@@ -1,0 +1,110 @@
+[
+    {
+        "id": "matha_fresh",
+        "url": "https://mathafresh.com/",
+        "title": "Matha Fresh Fish",
+        "description": "MathaFresh is a Kochi-based e-commerce platform that delivers fresh, hygienically prepared fish, poultry, and meat directly to customers' homes through convenient online and mobile ordering.",
+        "tags": ["#ecommerce", "#delivery", "#service", "#poultry"],
+        "technologies": ["React", ".Net", "MySQL", "Socket.IO", "Tanstack Router"],
+        "img": "/images/work/matha.png"
+    },
+    {
+        "id": "cartino_mart",
+        "url": "https://cartinomart.com/",
+        "title": "Cartino Mart",
+        "description": "Cartino Mart is an e-commerce platform for industrial equipment, spare parts, and hand tools, offering businesses easy access to quality products online.",
+        "tags": ["#ecommerce", "#delivery", "#service", "#tools"],
+        "technologies": ["React", ".Net", "MySQL", "Socket.IO", "Tanstack Router"],
+        "img": "/images/work/cartinomart.png"
+    },
+    {
+        "id": "xenia_crm",
+        "url": "https://crm.xeniapos.com/",
+        "title": "Xenia CRM",
+        "description": "Xenia CRM helps businesses manage customer relationships, streamline sales processes, and drive growth through an intuitive and efficient platform.",
+        "tags": ["#customer", "#support", "#enquiry"],
+        "technologies": [".Net", "HTML", "MySQL"],
+        "img": "/images/work/crm.png"
+    },
+    {
+        "id": "finix_tf",
+        "url": "https://www.finix-tf.com/",
+        "title": "Finix TF",
+        "description": "Finix TF is a multi-platform POS solution that streamlines billing, inventory management, and GST/VAT compliance for businesses of all sizes.",
+        "tags": ["#pos", "#bussiness", "#static"],
+        "technologies": ["React", "TailwindCSS"],
+        "img": "/images/work/finix.png"
+    },
+    {
+        "id": "akca_xeniapos",
+        "url": "https://akca.xeniapos.com/",
+        "title": "All Kerala Caterers Karuthal Trust",
+        "description": "AKCA is a platform that enables caterers across Kerala to register with the Karuthal Trust and access community support, welfare initiatives, and industry resources.",
+        "tags": ["#karuthal", "#trust", "#caterers", "#membership"],
+        "technologies": ["React", "TailwindCSS", ".Net", "MySQL"],
+        "img": "/images/work/akca.png"
+    },
+    {
+        "id": "vyapar_store",
+        "url": "https://www.vyaparstore.com/",
+        "title": "Vyapar Store",
+        "description": "Vyapar Store is a platform offering business software, POS systems, and hardware solutions, helping businesses streamline operations through reliable technology and a growing franchise network.",
+        "tags": ["#ecommerce", "#pos", "#scanners", "#franchise"],
+        "technologies": ["React", "CSS"],
+        "img": "/images/work/vyaparstore.png"
+    },
+    {
+        "id": "indian_taste_buds",
+        "url": "https://tastebuds.indiantastebuds.co.uk/",
+        "title": "Indian Taste Buds",
+        "description": "Indian Taste Bud is an online platform offering a wide range of food and beverage products, delivering quality essentials and favorite brands directly to customers through a seamless shopping experience.",
+        "tags": ["#ecommerce", "#delivery", "#service", "#food"],
+        "technologies": ["React", ".Net", "MySQL", "Socket.IO", "Tanstack Router"],
+        "img": "/images/work/indiantastebuds.png"
+    },
+    {
+        "id": "indian_taste_buds_menu",
+        "url": "https://indiantastebuds.co.uk/",
+        "title": "Indian Taste Buds Menu",
+        "description": "Indian Taste Bud is an online platform offering a wide range of food and beverage products, delivering quality essentials and favorite brands directly to customers through a seamless shopping experience.",
+        "tags": ["#ecommerce", "#menu", "#service", "#food"],
+        "technologies": ["React", ".Net", "MySQL", "Socket.IO", "Tanstack Router"],
+        "img": "/images/work/indiantastebuds.png"
+    },
+    {
+        "id": "advent_calender",
+        "url": "https://advent-calendar-fhooe.netlify.app/",
+        "title": "Advent Calender",
+        "description": "An Advent Calendar app to create and share digital calendars with friends. Each day reveals a surprise like a message, image, or link, making the countdown to Christmas interactive and fun.",
+        "tags": ["#advent", "#friends", "#present", "#share"],
+        "technologies": ["React", "node", "MongoDB", "Tanstack Router"],
+        "img": "/images/work/advent.png"
+    },
+    {
+        "id": "xenia_mobi",
+        "url": "https://xeniamobi.com/",
+        "title": "Xenia Mobi",
+        "description": "Xenia Mobi is an Android billing software designed for restaurants, cafes, and van sale businesses. It is a lightweight, user-friendly application that can be installed on a tablet or mobile device and used to manage sales, inventory, and customer orders.",
+        "tags": ["#billing", "#bussiness", "#support", "#app"],
+        "technologies": ["React", "node"],
+        "img": "/images/work/mobi.png"
+    },
+    {
+        "id": "bpos",
+        "url": "https://bpos.in/",
+        "title": "B|POS",
+        "description": "BPOS is a brand website showcasing its range of products, including self-service kiosks, thermal printers, and other POS hardware solutions.",
+        "tags": ["#selfservicekiosk", "#bussiness", "#product", "#pos"],
+        "technologies": ["React", "node"],
+        "img": "/images/work/bpos.svg"
+    },
+    {
+        "id": "mobi_pos",
+        "url": "https://mobipos.in/",
+        "title": "Mobi Pos",
+        "description": "Mobi POS is a revolution in Android Billing and Inventory Management. Mobi POS helps you to manage your Products, Customers, Vendors & Stock in a smart way and can maintain your van sales and multiple sales outlets simultaneously.",
+        "tags": ["#pos", "#device", "#billing", "#hardware"],
+        "technologies": ["React", "node"],
+        "img": "/images/work/mobipos.svg"
+    }
+]

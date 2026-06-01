@@ -1,8 +1,15 @@
 import { defineConfig } from 'vite'
+import type { AliasOptions } from 'vite'
 import react from '@vitejs/plugin-react'
 import { tanstackRouter } from '@tanstack/router-plugin/vite'
+import tailwindcss from '@tailwindcss/vite'
+//@ts-ignore
+import path from "path";
 
-// https://vitejs.dev/config/
+//@ts-ignore
+const root = path.resolve(__dirname, "src");
+
+
 export default defineConfig({
   plugins: [
     tanstackRouter({
@@ -10,6 +17,11 @@ export default defineConfig({
       autoCodeSplitting: true,
     }),
     react(),
-    // ...,
+    tailwindcss(),
   ],
+   resolve: {
+    alias: {
+      "@": root,
+    } as AliasOptions,
+  },
 })

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "web_development",
+        "name": "Web and Mobile App Development",
+        "logoName": "BsGlobe",
+        "description": "Crafting visually appealing and user-friendly interfaces using HTML, CSS, JavaScript, and modern frameworks like React, React Native, Next.js, and Flutter.",
+        "images": ["/images/technology/html.png", "/images/technology/css.png", "/images/technology/css.png", "/images/technology/html.png"]
+    },
+    {
+        "id": "ai_application_development",
+        "name": "AI Application Development",
+        "logoName": "RiAiGenerate2",
+        "description": "Integrating generative AI capabilities, image generation, and intelligent workflows.",
+        "images": ["https://www.mysql.com/", "https://www.postgresql.org/", "https://www.mongodb.com/", "https://redis.io/"]
+    },
+    {
+        "id": "api_development",
+        "name": "API Development and Integration",
+        "logoName": "TbApi",
+        "description": "Designing and developing RESTful APIs and integrating them with frontend applications.",
+        "images": ["https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview", "https://www.json.org/", "https://swagger.io/", "https://graphql.org/"]
+    },
+    {
+        "id": "performance_optimization",
+        "name": "Performance Optimization",
+        "logoName": "CgPerformance",
+        "description": "Optimizing applications for better performance and user experience.",
+        "images": ["https://developer.mozilla.org/en-US/docs/Web/Performance", "https://www.html5rocks.com/en/tutorials/performance/gettingstarted/", "https://web.dev/measure/", "https://pagespeed.web.dev/"]
+    },
+    {
+        "id": "version_control",
+        "name": "Version Control",
+        "logoName": "IoGitBranchOutline",
+        "description": "Managing changes to code over time using systems like Git.",
+        "images": ["https://git-scm.com/", "https://www.atlassian.com/git/", "https://github.com/", "https://gitlab.com/"]
+    },
+    {
+        "id": "unit_testing_debugging",
+        "name": "Unit testing and debugging",
+        "logoName": "GrTest",
+        "description": "Writing and running tests to ensure code quality and identifying issues.",
+        "images": ["https://jestjs.io/", "https://mochajs.org/", "https://chaijs.com/", "https://puppeteer.github.io/"]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "masters_interaction_Media",
+        "title": "Masters in Interactive Media",
+        "institution": "FH Oberösterreich • University of Applied Sciences, Upper Austria",
+        "duration": "Present",
+        "grade": ""
+    },
+    {
+        "id": "b_tech_computer_Science",
+        "title": "Bachelor Degree in Computer Science and Engineering(BTECH)",
+        "institution": "APJ Abdul Kalam Technological University • Thiruvananthapuram, Kerala",
+        "duration": "June 2022",
+        "grade": "CGPA : 7.05"
+    },
+    {
+        "id": "higher_secondary_examination",
+        "title": "Board of Higher Secondary Examination",
+        "institution": "St.Xavier'S Hss Peyad High School • Thiruvananthapuram",
+        "duration": "March 2017",
+        "grade": "Grade : 69.4%"
+    },
+    {
+        "id": "high_school_examination",
+        "title": "SSLC (Board of general education Kerala)",
+        "institution": "DVMNNMHSS • Maranalloor,Thiruvananthapuram",
+        "duration": "April 2015",
+        "grade": "Grade : 80%"
+    }
+]

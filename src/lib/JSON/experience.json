@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "Xenia Technologies",
+        "image" : "/images/company/02.png",
+        "year" : "2023 - 2025",
+        "Role" : "Software Developer",
+        "Technologies" : [
+            "Developed responsive web applications and Android apps, ensuring fast performance and seamless user experience.",
+            "Hands-on experience with React, React Native, and Node.js for building scalable applications.",
+            "Implemented state management using Zustand, React Query, and JS Cookies to optimize data flow and user sessions.",
+            "Integrated RESTful APIs into multiple projects, improving functionality and system reliability.",
+            "Collaborated closely with clients to gather requirements, provide updates, and deliver tailored solutions.",
+            "Worked with modern UI and styling technologies to create clean, responsive, and accessible interfaces.",
+            "Coordinated with cross-functional teams to integrate new features and ensure smooth deployments."
+        ]
+    },
+    {
+        "id": 2,
+        "name" : "Iantz IT Solutions",
+        "image" : "/images/company/01.png",
+        "year" : "2022 - 2023",
+        "Role" : "Junior React Developer",
+        "Technologies" : [
+            "Built responsive and user-friendly web pages using modern front-end technologies.",
+            "Assisted in developing features using ReactJS",
+            "Integrated RESTful APIs and handled data flow between backend and frontend.",
+            "Worked with state management using Pullstate",
+            "Collaborated with senior developers to understand requirements and implement solutions.",
+            "Participated in code reviews and learned best practices for clean, maintainable code.",
+            "Communicated with clients and team members to clarify tasks and deliver updates.",
+            "Fixed bugs, improved UI components, and optimized application performance.",
+            "Gained experience with version control (Git/GitHub) and project workflows.",
+            "Contributed to improving user experience through testing and iterative development.",
+            "Worked using styling library like SCSS and Tailwind CSS."
+        ]
+    }
+]

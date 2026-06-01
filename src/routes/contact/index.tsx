@@ -132,7 +132,9 @@ function RouteComponent() {
                 className="bg-blue-600 px-10 py-2 rounded-lg m-auto flex justify-center text-white"
               >
                 {/* {isLoading ? "It take some time..." : "Submit"} */}
-                {isLoading ? "Currently backend work ongoing..." : "Cannot send at this time..."}
+                {isLoading
+                  ? "Currently backend work ongoing..."
+                  : "Cannot send at this time..."}
               </button>
             </form>
             {/* <div className="mt-2">

@@ -1,10 +1,18 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import CardDesign from "@/components/ui/cardDesign";
-import { useForm } from "react-hook-form";
+import { useForm, type SubmitHandler } from "react-hook-form";
 import emailService from "@/lib/api";
 import reindeer from "../../../public/json/reindeer.json";
 import Lottie from "lottie-react";
+
+export interface ContactData {
+  name: string;
+  email: string;
+  subject: string;
+  number: string;
+  message: string;
+}
 
 export const Route = createFileRoute("/contact/")({
   component: RouteComponent,
@@ -19,9 +27,9 @@ function RouteComponent() {
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm();
+  } = useForm<ContactData>();
 
-  const onSubmit = async (data: any) => {
+  const onSubmit: SubmitHandler<ContactData> = async (data) => {
     setIsLoading(true);
     const dataResponse = (await emailService(data)) as { status: number };
     if (dataResponse.status === 200) {
@@ -137,13 +145,13 @@ function RouteComponent() {
                   : "Cannot send at this time..."}
               </button>
             </form>
-            {/* <div className="mt-2">
+            <div className="mt-2">
                   {showAlert && (
-                    <Alert severity="success">
+                    <span className="text-green-400">
                       Message sent succefully, Feel free to message any time!
-                    </Alert>
+                    </span>
                   )}
-                </div> */}
+                </div>
           </div>
           <div className="absolute bottom-0 -left-5 sm:left-0 w-32">
             <Lottie animationData={reindeer} />

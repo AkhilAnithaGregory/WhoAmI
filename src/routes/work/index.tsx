@@ -13,7 +13,7 @@ function RouteComponent() {
         My Works
       </h1>
 
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 items-start p-8">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 items-start p-2 md:p-8">
         {WorkData?.map((work) => (
           <WorkCard
             id={work.id}

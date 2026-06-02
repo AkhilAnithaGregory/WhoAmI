@@ -15,10 +15,10 @@ export const WorkCard = ({
       key={id}
       target="_blank"
       rel="noopener noreferrer"
-      className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl h-full"
+      className="max-w-full xl:max-w-2xl mx-auto bg-white rounded-xl shadow-md overflow-hidden w-full h-full"
     >
-      <div className="md:flex">
-        <div className="md:shrink-0 p-2">
+      <div className="sm:flex">
+        <div className="md:shrink-0 p-2 sm:max-w-[150px] w-full">
           <img
             className="h-48 w-full object-contain md:h-full md:w-48"
             src={productImage}

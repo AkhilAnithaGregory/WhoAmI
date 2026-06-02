@@ -11,7 +11,7 @@ function Skills() {
             </span>
             <p className="text-3xl">My Skills</p>
           </div>
-          <ul className="tracking-wider leading-6 text-md text-justify list-disc list-inside space-y-4 px-10">
+          <ul className="tracking-wider leading-6 text-md text-justify list-disc list-inside space-y-4 sm:px-10">
             <li><b>Front-End :</b> HTML, React, Next.js, React Native, Flutter, Vue</li>
             <li><b>Style Sheet :</b> CSS, Tailwind CSS, Bootstrap, Sass, Shadcn</li>
             <li><b>Backend :</b> Node.js, Express</li>

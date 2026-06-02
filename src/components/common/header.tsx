@@ -103,8 +103,15 @@ function Header() {
           <li className="block md:hidden">
             <h2 className="text-xl">Links</h2>
             <div className="flex justify-between mt-4">
-              <Link to="/">Home</Link> <Link to="/work">Works</Link>{" "}
-              <Link to="/contact">Contact Me</Link>
+              <Link to="/" onClick={toggleDrawer}>
+                Home
+              </Link>
+              <Link to="/work" onClick={toggleDrawer}>
+                Works
+              </Link>
+              <Link to="/contact" onClick={toggleDrawer}>
+                Contact Me
+              </Link>
             </div>
           </li>
           <li>

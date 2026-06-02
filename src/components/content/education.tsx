@@ -5,11 +5,11 @@ function Education() {
   return (
     <CardDesign
       content={
-        <section id="education" className="p-5">
+        <section id="education" className="p-2 sm:p-5">
           <span className="text-md py-2 text-green-400 text-start">
             Education
           </span>
-          <div className="p-4">
+          <div>
             <ol className="relative border-s border-default">
               {EducationData?.map((education) => (
                 <li key={education?.id} className="mb-10 ms-4">

@@ -18,7 +18,7 @@ export const WorkCard = ({
       className="max-w-full xl:max-w-2xl mx-auto bg-white rounded-xl shadow-md overflow-hidden w-full h-full"
     >
       <div className="sm:flex">
-        <div className="md:shrink-0 p-2 sm:max-w-[150px] w-full">
+        <div className="md:shrink-0 p-2 sm:max-w-37.5 w-full">
           <img
             className="h-48 w-full object-contain md:h-full md:w-48"
             src={productImage}

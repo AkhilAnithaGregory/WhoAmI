@@ -1,4 +1,5 @@
 import CardDesign from "@/components/ui/cardDesign";
+import { FiDownload } from "react-icons/fi";
 
 function HeroSection() {
   return (
@@ -14,7 +15,7 @@ function HeroSection() {
               className="rounded-lg md:custom_polygon m-auto"
             />
           </div>
-          <div>
+          <div className="p-2">
             <div className="text-4xl text-black dark:text-white text-start">
               Hey, I&apos;m Akhil Anitha Gregory
             </div>
@@ -37,21 +38,9 @@ function HeroSection() {
             >
               <button
                 type="button"
-                className="px-4 mt-5 py-3 bg-blue-600 rounded-md text-white outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform flex"
+                className="px-4 my-5 py-3 bg-blue-600 rounded-md text-white outline-none focus:ring-4 shadow-lg transform active:scale-x-75 transition-transform flex"
               >
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                  />
-                </svg>
+                <FiDownload className="mt-1" />
                 <span className="ml-2">Know About Me</span>
               </button>
             </a>

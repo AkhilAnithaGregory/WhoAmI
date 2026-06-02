@@ -15,7 +15,7 @@ function Experience() {
   return (
     <CardDesign
       content={
-        <section id="experience" className="p-5">
+        <section id="experience" className="p-2 sm:p-5">
           <span className="text-md py-2 text-green-400 text-start">
             Experience
           </span>
@@ -23,7 +23,7 @@ function Experience() {
             <span className="text-green-500">3 years</span> of relentless
             curiosity and passion <br /> for programming techniques.
           </p>
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-5 p-5">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-5 sm:p-5">
             {/* LEFT COLUMN */}
             <div className="xl:col-span-1">
               <div className="grid gap-2 overflow-y-auto">

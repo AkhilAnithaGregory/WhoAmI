@@ -43,7 +43,7 @@ function Technologies() {
               </span>
               <p className="text-3xl">Technologies and Integrations</p>
             </div>
-            <span className="flex items-center space-x-4">
+            <span className="flex flex-wrap items-center space-x-4">
               {techImages.map((image, index) => (
               <img
                 key={index}

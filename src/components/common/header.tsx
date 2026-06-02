@@ -6,9 +6,12 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { IoMdCopy } from "react-icons/io";
+import { useRouterState } from '@tanstack/react-router';
+
 
 function Header() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const router = useRouterState();
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const toggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
@@ -43,13 +46,19 @@ function Header() {
           {/* <li>Blog</li> */}
           {/* <li>Gallery</li> */}
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className={router.location.pathname === "/" ? "text-[#a8ff53]" : "text-white"}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/work">Works</Link>
+            <Link to="/work" className={router.location.pathname === "/work" ? "text-[#a8ff53]" : "text-white"}>
+              Works
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact Me</Link>
+            <Link to="/contact" className={router.location.pathname === "/contact" ? "text-[#a8ff53]" : "text-white"}>
+              Contact Me
+            </Link>
           </li>
         </ul>
         <ul className="hidden lg:flex space-x-4 m-0">
@@ -102,17 +111,20 @@ function Header() {
         <ul className="mb-5 text-sm text-body space-y-6 mt-4">
           <li className="block md:hidden">
             <h2 className="text-xl">Links</h2>
-            <div className="flex justify-between mt-4">
-              <Link to="/" onClick={toggleDrawer}>
+            <div className="flex flex-col gap-y-4 justify-between mt-4">
+              <Link to="/" onClick={toggleDrawer} className={router.location.pathname === "/" ? "text-[#a8ff53]" : "text-white"}>
                 Home
               </Link>
-              <Link to="/work" onClick={toggleDrawer}>
+              <Link to="/work" onClick={toggleDrawer} className={router.location.pathname === "/work" ? "text-[#a8ff53]" : "text-white"}>
                 Works
               </Link>
-              <Link to="/contact" onClick={toggleDrawer}>
+              <Link to="/contact" onClick={toggleDrawer} className={router.location.pathname === "/contact" ? "text-[#a8ff53]" : "text-white"}>
                 Contact Me
               </Link>
             </div>
+          </li>
+          <li>
+            <h2 className="text-xl">Contact</h2>
           </li>
           <li>
             <h4 className="text-gray-400">Email</h4>

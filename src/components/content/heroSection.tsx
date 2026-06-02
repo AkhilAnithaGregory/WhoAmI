@@ -23,14 +23,15 @@ function HeroSection() {
               SOFTWARE DEVELOPER
             </div>
             <p className="text-justify leading-8 text-black dark:text-white">
-              As a dedicated Software Developer with expertise in React, React
-              Native, Next.js, and Flutter, I specialize in building responsive,
-              user-friendly interfaces for both web and mobile applications. I
-              also have a growing knowledge of backend development using
-              Node.js, allowing me to work across the full stack and contribute
-              to a wide range of applications. I am committed to continuous
-              learning and enjoy tackling challenges to create efficient and
-              scalable solutions.
+              Software Developer specializing in React, React Native, and
+              Next.js, with experience developing responsive and user-centric
+              web and mobile applications. Skilled in building modern
+              interfaces, optimizing user experiences, and delivering
+              maintainable frontend solutions. Currently broadening my expertise
+              by learning Vue.js, Flutter, and backend API development using
+              Node.js. Driven by continuous learning and a passion for
+              technology, I enjoy tackling new challenges and contributing to
+              innovative, scalable applications.
             </p>
             <a
               href="/pdf/CURRICULUM_VITAE_AKHIL_ANITHA_GREGORY.pdf"
